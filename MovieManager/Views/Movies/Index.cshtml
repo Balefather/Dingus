@@ -13,7 +13,7 @@
 
 @foreach (var item in Model)
 {
-    <div class="card" style="width: 18rem;">
+    <div class="card col-md-4">
         <img class="card-img-top" src="https://image.tmdb.org/t/p/original/@Html.DisplayFor(modelItem => item.posterUrl)" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">@Html.DisplayFor(modelItem => item.name)</h5>

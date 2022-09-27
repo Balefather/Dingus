@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card {
+    display: inline-flex;
+}
+
+.col-md-4 {
+    width: 33%
+}
